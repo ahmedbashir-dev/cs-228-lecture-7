@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectors </title>
+    <style>
+        div ~ p{
+            color:red;
+        }
+        a{
+            text-decoration:none;
+            font-size: 32px;
+        }
+        a:hover{
+            color:aqua;
+            background-color:black;
+        }
+        #hidden{
+            display:none;
+        }
+        div#hoverMe:hover{
+            background-color:#3a3a3a;
+        }
+
+        a:visited{
+            color:red;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, voluptas molestiae sit facere sed quisquam voluptatibus sequi harum quibusdam quidem. Quia, perferendis vel nostrum est fuga neque numquam amet similique?
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum cumque vel aspernatur aliquam numquam debitis asperiores consequuntur repellat minima officia aliquid rem enim, voluptatibus sapiente quibusdam vero perferendis dolorem saepe!
+        </p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente pariatur voluptatum distinctio quibusdam nemo quis ipsam quaerat magnam unde totam aliquid incidunt impedit sit, deleniti hic dicta labore eligendi esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente pariatur voluptatum distinctio quibusdam nemo quis ipsam quaerat magnam unde totam aliquid incidunt impedit sit, deleniti hic dicta labore eligendi esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente pariatur voluptatum distinctio quibusdam nemo quis ipsam quaerat magnam unde totam aliquid incidunt impedit sit, deleniti hic dicta labore eligendi esse.</p>
+        </section>
+    </div>
+
+    <p>Immediate Sibling</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorem debitis, praesentium adipisci nesciunt quam quaerat delectus minus quod eaque tempore officiis suscipit architecto culpa saepe neque et sunt magni?</p>
+    <div id="hoverMe">
+        Hover Over Me
+    </div>
+    <p id="hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel libero hic culpa distinctio expedita nisi esse sunt eius quaerat blanditiis accusamus cupiditate, consequatur omnis doloribus molestiae vitae officia. Facere?
+    </p>
+    <a href="http://www.uet.edu.pk">UET</a>
+
 </body>
 </html>
